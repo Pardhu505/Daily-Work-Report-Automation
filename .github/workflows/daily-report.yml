@@ -3,7 +3,7 @@ name: Daily Work Report Automation
 on:
   schedule:
     # 12:04 PM IST = 06:34 UTC
-    - cron: '34 6 * * *'
+    - cron: '33 7 * * *'
   workflow_dispatch:  # allows manual trigger from GitHub UI
 
 jobs:

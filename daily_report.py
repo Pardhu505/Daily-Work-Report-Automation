@@ -21,7 +21,9 @@ SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 SENDER_EMAIL = os.getenv("SMTP_EMAIL")
 SENDER_PASSWORD = os.getenv("SMTP_PASSWORD")
-RECIPIENTS = ["pardhumunna25@gmail.com"]  # You can add more if needed
+RECIPIENTS = ["rs@showtimeconsulting.in",
+    "at@showtimeconsulting.in",
+    "alimpan@showtimeconsulting.in"]  
 
 TEMPLATE_FILE = "Tasks template.xlsx"      # Commit this file to repo root
 OUTPUT_FILE = "Daily_Work_Report.xlsx"
